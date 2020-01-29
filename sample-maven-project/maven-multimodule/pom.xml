@@ -8,7 +8,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Example of multi-module Maven project</name>
+  <name>Example of Maven multi-module project</name>
 
   <modules>
     <module>module1</module>

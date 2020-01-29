@@ -15,7 +15,7 @@ node {
             }
             
             stage("archival") {
-                archiveArtifacts "target/*.?ar"
+                archiveArtifacts "module?/target/*.?ar"
             }
         }
         

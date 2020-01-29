@@ -12,7 +12,7 @@
 
 	<!-- Define the Sonar properties -->
 	<property name="sonar.projectKey" value="org.sonarqube:sonarqube-scanner-ant" />
-	<property name="sonar.projectName" value="Example of SonarQube Scanner for Ant Usage" />
+	<property name="sonar.projectName" value="Example of Ant project" />
 	<property name="sonar.projectVersion" value="1.0" />
 	<property name="sonar.sources" value="src" />
 	<property name="sonar.binaries" value="target" />

@@ -1,0 +1,12 @@
+import os
+
+WAYWARD_PATH = '../../'
+
+SConscript(os.path.join(WAYWARD_PATH, "SConstruct"))
+Import('env', 'persistence', 'WaywardProgram')
+
+env = env.Clone()
+env.Append(CPPPATH = WAYWARD_PATH)
+env.Append(LIBS = persistence)
+
+hello = WaywardProgram(env, 'hello', ['hello.cpp'], [WAYWARD_PATH])
